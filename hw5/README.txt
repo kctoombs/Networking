@@ -1,0 +1,7 @@
+Type 'make' to compile. Type 'make clean' to remove the executable.
+
+To run the code, type './PingClient IP PORT' where IP is the IP address of the server machine and PORT is the port number being used. PingClient parses the arguments and uses them as the server IP address and the port number.
+
+For example, './PingClient 128.111.43.22 8000' is what I have been using to test. 128.111.43.22 is the IP address of csil-12.cs.ucsb.edu.
+
+When a packet is dropped, the client does not output anything for that packet (Metehan said to ignore dropped packets, so I just didn't print anything).
